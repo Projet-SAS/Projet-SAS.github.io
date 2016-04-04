@@ -1,0 +1,25 @@
+{
+  "name": "Projet-SAS.github.io",
+  "description": "Website of the project",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "keikyoku",
+    "Benjamin"
+  ],
+  "license": "MIT",
+  "homepage": "Projet-SAS.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/components/"
+  ],
+  "dependencies": {
+    "skeleton": "^2.0.4",
+    "hover": "^2.0.2"
+  }
+}
