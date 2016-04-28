@@ -3,36 +3,48 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Projet SAS - Homepage</title>
-
-	<script src="app/components/jquery/dist/jquery.min.js"></script>
 	
-	<link rel="stylesheet" href="app/components/skeleton/css/normalize.css">
-	<link rel="stylesheet" href="app/components/skeleton/css/skeleton.css">
-	<link rel="stylesheet" href="app/components/hover/css/hover.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/stylesheet.css">
+	<script src="./assets/js/jquery-2.2.3.min.js"></script>
 </head>
 <body>
-	<div class="container">
-		<hr>
-		<h1>Projet SAS.</h1>
-		<h6>Système d'Automatisation d'une Salle</h6>
-		<a href="" class="button button-primary hvr-shrink">Accueil</a>
-		<a href="https://github.com/Projet-SAS" class="button button-primary hvr-shrink">retrouvez nous sur Github</a>
-		<a href="updates.html" class="button button-primary hvr-shrink">blog</a>
-		<a href="#" class="button button-primary hvr-shrink" title="non disponible pour le moment">Documentation</a>
-		<br><br>
-		<p>La perte de temps et d'énergie font parties des problèmes les plus récurrents de nos jours. Par exemple, dans une salle de classe, une quantité notable d'énergie et de temps sont perdues dans la mise en place d'un environnement agréable de travail.</p>
-		
-		<div class="row">
-			<div class="six columns">
-				<p>Le principe du projet S.A.S est de régler les soucis de température et luminosité afin d'optimiser l'environnement lié au travail. Le système doit pouvoir s'adapter à son environnement (température intérieure et extérieure, luminosité ambiante). Le projet S.A.S. doit en priorité obéir aux volontés de l'utilisateur qui peuvent être modifiées. </p>
-			</div>
-			<div class="six columns">
-				<p>Tout ceci devra fonctionner sans interruption (hormis en cas de panne de courant) et pourra s'adapter lui-même s’il ne détecte aucune présence durant un certain temps. Il pourra également suivre des directives inscrites pour planifier un besoin (horaires prédéfinis).</p>
-			</div>
-		</div>
 
-		<p>Le projet intervient dans le cadre d'un établissement scolaire, afin d'améliorer et de faciliter la mise en place d'un environnement favorable au travail. Un utilisateur (Professeur) peut régler la température et la luminosité souhaitée, le système se charge alors de cette  mise en place en s’ajustant en fonction de paramètres extérieur comme le soleil et la température pour obtenir le résultat voulut. Bien évidemment la maintenance est comptée parmi les acteurs dans le cas ou un composant s'avérait défaillant.</p>
-	</div>
+	<header>
+		<h1>Projet S.A.S.</h1>
+		<h5>Système d'Automatisation de Salle</h5>
+	</header>
+
+	<main>
+		<div class="flex_grow">
+			<article class="menu_block article_blue">
+				<h3><a href="./post/story.html">En apprendre plus sur le projet...</a></h3>
+			</article>
+
+			<article class="menu_block article_green">
+				<h3><a href="https://github.com/projet-SAS">voir sur github...</a></h3>			
+			</article>
+
+			<article class="menu_block article_red">
+				<h3><a href="./post/updates.html">Voir les mises à jours...</a></h3>
+			</article>
+
+			<article class="menu_block article_orange">
+				<h3><a href="./post/authors.html">à propos des auteurs...</a></h3>
+			</article>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer_left">
+			Copyright 2015 - 2016 All rights reserved.
+		</div>
+		<div class="footer_right">
+			this website was made with <a href="https://github.com/keikyoku" target="_blank">love</a>.
+		</div>
+	</footer>
+
+	<script src="./assets/js/plugins.js"></script>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
